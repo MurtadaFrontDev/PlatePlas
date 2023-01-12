@@ -1,0 +1,86 @@
+/* Start Var  */
+:root {
+  --main-color: #292a2c;
+  --gray-color: #606060;
+  --black-color: #0e0f13;
+  --main-red: #ff835c;
+  --red-color: #ff3d00;
+}
+/* End Var */
+/* Start Global Rules */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Baskervville", serif;
+}
+.container {
+  padding: 0 110px;
+}
+/* End Global Rules */
+
+/* Start Header */
+/* 
+======
+======
+======
+======
+======
+=====Header
+======
+======
+======
+======
+======
+*/
+/* End Header */
+
+/* Start landing Page */
+/* 
+======
+======
+======
+======
+======
+=====landing Page
+======
+======
+======
+======
+======
+*/
+/* End landing Page */
+
+/* Start Services */
+/* 
+======
+======
+======
+======
+======
+=====Services
+======
+======
+======
+======
+======
+*/
+/* End Services */
+
+/* Start Contact Us */
+/* 
+======
+======
+======
+======
+======
+=====Contact Us
+======
+======
+======
+======
+======
+*/
+/* End Contact Us */
