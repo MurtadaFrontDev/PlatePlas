@@ -5,6 +5,7 @@
   --black-color: #0e0f13;
   --main-red: #ff835c;
   --red-color: #ff3d00;
+  --white-color: #ffffff;
 }
 /* End Var */
 /* Start Global Rules */
@@ -15,9 +16,18 @@
 }
 body {
   font-family: "Baskervville", serif;
+  background: rgb(35, 36, 39);
+  background: linear-gradient(
+    310deg,
+    rgba(35, 36, 39, 1) 0%,
+    rgba(41, 42, 44, 1) 100%
+  );
+  display: flex;
+  justify-content: center;
 }
 .container {
   padding: 0 110px;
+  width: 1440px;
 }
 /* End Global Rules */
 
@@ -54,19 +64,172 @@ body {
 /* End landing Page */
 
 /* Start Services */
-/* 
-======
-======
-======
-======
-======
-=====Services
-======
-======
-======
-======
-======
-*/
+.services {
+  position: relative;
+}
+
+/* Start intro */
+
+.services .intro {
+  width: 100%;
+  height: 100vh;
+}
+.services .intro .container {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services .intro .container h1 {
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 62px;
+  letter-spacing: 0.4em;
+  color: var(--white-color);
+}
+/* End intro */
+
+/* Start First Section */
+.services .firstSec {
+  height: 100vh;
+  position: relative;
+}
+.services .firstSec .container {
+  display: flex;
+}
+.firstSec .container .ls .title h1 {
+  text-transform: uppercase;
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 83px;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+.firstSec .container .ls .sub-text {
+  margin-top: 3em;
+}
+.firstSec .container .ls .sub-text p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+.firstSec .container .ls .sub-text a {
+  font-family: "Baskervville";
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: var(--main-red);
+}
+.firstSec .container .ls .sub-text i {
+  font-size: 20px;
+  transition: 0.3s;
+}
+.firstSec .container .ls .sub-text a:hover i {
+  margin-left: 10px;
+}
+/* End First Section */
+
+/* Start Second Section */
+.secondSec {
+  height: 100vh;
+}
+.secondSec .container {
+  display: flex;
+  position: relative;
+}
+.secondSec .container .rs {
+  margin-left: 3em;
+}
+.secondSec .container .rs .title h1 {
+  text-transform: uppercase;
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+.secondSec .container .rs .title span {
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 62px;
+  letter-spacing: 0.02em;
+  color: var(--gray-color);
+}
+.secondSec .container .rs .sub-text {
+  margin-top: 3em;
+}
+.secondSec .container .rs .sub-text p {
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+}
+.secondSec .container .rs .sub-text a {
+  font-family: "Baskervville";
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 41px;
+  color: var(--main-red);
+}
+.secondSec .container .rs .sub-text i {
+  font-size: 20px;
+  transition: 0.3s;
+}
+.secondSec .container .rs .sub-text a:hover i {
+  margin-left: 10px;
+}
+/* End Second Section */
+/* Start Third Section */
+.thirdSec {
+  height: 100vh;
+}
+.thirdSec .container {
+  display: flex;
+}
+.thirdSec .container .ls {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 3em;
+  padding-bottom: 3em;
+}
+.thirdSec .container .ls h1 {
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 83px;
+  color: var(--white-color);
+}
+.thirdSec .container .ls p {
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 31px;
+  text-align: center;
+  color: var(--white-color);
+}
+/* End Third Section */
 /* End Services */
 
 /* Start Contact Us */
