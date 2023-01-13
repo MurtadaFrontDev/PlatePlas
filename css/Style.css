@@ -22,12 +22,9 @@ body {
     rgba(35, 36, 39, 1) 0%,
     rgba(41, 42, 44, 1) 100%
   );
-  display: flex;
-  justify-content: center;
 }
 .container {
-  padding: 0 110px;
-  width: 1440px;
+  padding: 0 300px;
 }
 /* End Global Rules */
 
@@ -66,6 +63,7 @@ body {
 /* Start Services */
 .services {
   position: relative;
+  width: 100%;
 }
 
 /* Start intro */
@@ -233,17 +231,86 @@ body {
 /* End Services */
 
 /* Start Contact Us */
-/* 
-======
-======
-======
-======
-======
-=====Contact Us
-======
-======
-======
-======
-======
-*/
+.footer {
+  background: url(../images/home\ \ color.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer .container {
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 48px;
+}
+.footer .intro-title {
+  display: flex;
+  justify-content: center;
+}
+.footer .intro-title h1 {
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+.footer .container .cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 3em;
+}
+.footer .cards {
+  margin-top: 3em;
+}
+.footer .cards .card {
+  text-align: center;
+}
+.footer .cards .card i {
+  font-size: 2.8em;
+  line-height: 70px;
+  color: var(--main-red);
+}
+.footer .cards .card h2 {
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 60px;
+  /* identical to box height */
+
+  text-align: center;
+  color: var(--main-red);
+}
+.footer .cards .card p {
+  font-family: "Baskervville";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+}
+.footer .icons {
+  margin-top: 3em;
+  position: relative;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 30em;
+  display: flex;
+  justify-content: space-around;
+}
+.footer .icons a i {
+  color: var(--main-red);
+  font-size: 2em;
+  transition: 0.3s;
+}
+.footer .icons a:hover i {
+  color: var(--white-color);
+}
 /* End Contact Us */
