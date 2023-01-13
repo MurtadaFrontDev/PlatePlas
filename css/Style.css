@@ -24,40 +24,155 @@ body {
   );
 }
 .container {
-  padding: 0 300px;
+  padding: 0 110px;
 }
 /* End Global Rules */
 
 /* Start Header */
-/* 
-======
-======
-======
-======
-======
-=====Header
-======
-======
-======
-======
-======
-*/
+
+header {
+  width: 100%;
+  height: 94px;
+  border-bottom: 1px solid var(--gray-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 26px;
+}
+header .logo {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+header .logo .dots {
+  display: flex;
+  width: 25px;
+  height: 25px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  padding-bottom: 2px;
+}
+header .logo .dots i {
+  margin: 1.2px;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 9.6px;
+}
+header .logo .name {
+  font-size: 32px;
+  color: #FFFFFF;
+  height: 32;
+  line-height: 32px;
+}
+header ul {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+
+}
+header ul li {
+  margin: 0 20px;
+  list-style: none;
+}
+header ul li a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 20px;
+}
+header ul li .active {
+  color: var(--main-red);
+  border-bottom: 1px solid var(--main-red);
+  padding-bottom: 25px;
+}
+header ul li a:hover {
+  color: var(--main-red);
+  border-bottom: 1px solid var(--main-red);
+  padding-bottom: 25px;
+  transition: color .2s;
+}
+header ul li a:hover  header ul li .active {
+  color: #fff;
+  border: none;
+  transition: all .2s;
+}
+header .icons i {
+  margin: 1.2px;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 25px;
+  width: 24px;
+  height: 24px;
+  margin: 0 40px;
+}
 /* End Header */
 
 /* Start landing Page */
-/* 
-======
-======
-======
-======
-======
-=====landing Page
-======
-======
-======
-======
-======
-*/
+.landing {
+  /* width: 1440px; */
+  height: 1024px;
+  background-image: url(../images/home\ \ color.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.landing-box {
+  display: flex;
+  margin-top: 109px;
+}
+.landing-box img {
+  width: 480px;
+  height: 480px;
+}
+.landing-box .info {
+  width: calc(100% - 480px);
+  margin-left: 16px;
+  padding: 0 27.4px;
+}
+.landing-box .info  h1 {
+  color: #FFFFFF;
+  width: 360px;
+  height: 124px;
+  font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 124px;
+letter-spacing: 0.02em;
+}
+.landing-box .info  h1 span {
+  font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 62px;
+width: 95px;
+height: 62px;
+color: var(--main-red);
+}
+.landing-box .info  p {
+  font-family: 'Baskervville';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+width: 424px;
+height: 124px;
+color: #fff;
+}
+.landing-box .info  .sub-text a{
+  font-family: "Baskervville";
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    color: var(--main-red);
+}
+.landing-box .info  .sub-text i {
+  font-size: 20px;
+  transition: 0.3s;
+}
+.landing-box .info .sub-text a:hover i {
+  margin-left: 10px;
+}
 /* End landing Page */
 
 /* Start Services */
