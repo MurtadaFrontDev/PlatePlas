@@ -484,3 +484,17 @@ margin: 0 0 0 24px;
   color: var(--white-color);
 }
 /* End Contact Us */
+
+/* responsive */
+
+/* Mobile */
+
+@media (max-width: 767px) {
+  header{display: none;}
+  .landing-box {margin-top: 0;}
+  .container {padding: 0;}
+  .landing-box {display: block;}
+  .services .intro .container h1 {font-size:revert ;}
+}
+
+/* end responsive */
