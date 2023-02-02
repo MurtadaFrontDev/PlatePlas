@@ -489,12 +489,38 @@ margin: 0 0 0 24px;
 
 /* Mobile */
 
-@media (max-width: 767px) {
+@media (max-width: 769px) {
+  .none{display: none;}
   header{display: none;}
   .landing-box {margin-top: 0;}
   .container {padding: 0;}
   .landing-box {display: block;}
   .services .intro .container h1 {font-size:revert ;}
+  .container .rs {margin-left: 3em;}
+  .thirdSec .container .ls {margin: 3em;}
+  .thirdSec {height: auto;}
+  .footer .container .cards {padding: 0 20px;}
+  .services .firstSec {height: auto;}
+  img{max-width:400px}
+  .services .firstSec .container {display: block;}
+  .secondSec .container {display: block;position: relative;}
+  .services .intro {width: 100%;height: 70vh;}
+  .landing-box .info {width: auto;}
+}
+
+@media (max-width: 394px){
+  .thirdSec .container { display: block;}
+  img {max-width: 200px;}
+  .landing-box .info p {width: auto;margin-bottom:30px}
+  .landing-box .info h1 {font-size: 50px;}
+  .products .product img {width: 140px;height: 140px;}
+  .footer .cards .card p {display: block;}
+  .footer .container .cards {display: block;}
+  .secondSec .container .rs .title h1,
+  .firstSec .container .ls .title h1 {
+    font-size: 40px;
+    line-height: 60px;
+}
 }
 
 /* end responsive */
