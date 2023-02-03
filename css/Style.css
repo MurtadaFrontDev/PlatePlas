@@ -485,42 +485,134 @@ margin: 0 0 0 24px;
 }
 /* End Contact Us */
 
-/* responsive */
+/* Statrt responsive */
 
-/* Mobile */
-
-@media (max-width: 769px) {
+@media (max-width: 913px) {
   .none{display: none;}
   header{display: none;}
-  .landing-box {margin-top: 0;}
+
+  .landing-box {margin-top: 0;
+    display: block;
+    text-align: center;
+  }
+
+  .landing-box .info p,
+  .landing-box .info h1{width:auto}
+
+  .landing-box .info {
+    width: auto;
+    margin: auto;
+  }
+
   .container {padding: 0;}
-  .landing-box {display: block;}
   .services .intro .container h1 {font-size:revert ;}
-  .container .rs {margin-left: 3em;}
-  .thirdSec .container .ls {margin: 3em;}
+
+  .secondSec .container .rs {margin:auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+
   .thirdSec {height: auto;}
+  .thirdSec .container .ls {margin: 3em;}
   .footer .container .cards {padding: 0 20px;}
   .services .firstSec {height: auto;}
-  img{max-width:400px}
-  .services .firstSec .container {display: block;}
-  .secondSec .container {display: block;position: relative;}
-  .services .intro {width: 100%;height: 70vh;}
-  .landing-box .info {width: auto;}
+  img{max-width:500px}
+
+  .services .firstSec .container {
+    display: block;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .secondSec .container {
+    display: block;
+    position: relative;
+  }
+
+  .services .intro {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .secondSec {height: auto;}
+
 }
 
-@media (max-width: 394px){
-  .thirdSec .container { display: block;}
-  img {max-width: 200px;}
-  .landing-box .info p {width: auto;margin-bottom:30px}
+@media (max-width: 540px){
+
+  .thirdSec .container {
+    display: block;
+    padding: 10px;
+  }
+
+  img {max-width: 300px;}
+  .landing-box .info p {
+    width: auto;
+    margin-bottom:30px
+  }
+
   .landing-box .info h1 {font-size: 50px;}
-  .products .product img {width: 140px;height: 140px;}
+  .products .product img {width: 140px;
+    height: 140px;
+  }
+
   .footer .cards .card p {display: block;}
   .footer .container .cards {display: block;}
+
   .secondSec .container .rs .title h1,
   .firstSec .container .ls .title h1 {
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 40px;
 }
+
+.footer .icons {width: auto;}
+.landing-box .info h1 {width: auto;}
+
+.landing-box img {
+  width: auto;
+  height: auto;
+  margin: 0px 25px;
 }
+
+.firstSec .container .ls .sub-text a,
+.secondSec .container .rs .sub-text a,
+.landing-box .info .sub-text a {
+  font-size: 20px;
+}
+.firstSec .container .ls .sub-text i,
+.secondSec .container .rs .sub-text i,
+.landing-box .info .sub-text i {
+  font-size: 6px;
+}
+
+.landing {
+  padding: 30px 0px;
+  height: auto;
+}
+
+.thirdSec .container .ls h1{font-size: auto;}
+
+.services .intro .container h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.services .intro {height: auto;}
+.services {text-align: center;}
+
+.secondSec .container .rs,
+.container .rs {
+  padding: 10px;
+  margin: auto;
+}
+
+.thirdSec .container .ls {display: contents;}
+
+.secondSec {
+  height: auto;
+  padding-bottom: 15px;
+}
+
+}
+/* .img-width{width: 400px;} */
 
 /* end responsive */
